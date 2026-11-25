@@ -1,4 +1,5 @@
 // Funniest Autocorrect Fail: the program writes its one-line entry to entry.txt.
+// The gate is 1-199 chars: the line must read as a funny autocorrect fail and nothing else.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
